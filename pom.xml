@@ -5,4 +5,13 @@
     <groupId>test.app</groupId>
     <artifactId>test_java</artifactId>
     <version>1.0-SNAPSHOT</version>
+    
+  <distributionManagement>
+    <repository>
+      <id>gcp-java-project</id>
+      <name>gcp-java-project</name>
+      <url>http://10.128.0.4:8081/repository/gcp-java-project/</url>
+    </repository>
+  </distributionManagement>
+         
 </project>
