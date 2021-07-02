@@ -8,9 +8,9 @@
     
   <distributionManagement>
     <repository>
-      <id>gcp-java-project</id>
-      <name>gcp-java-project</name>
-      <url>http://10.128.0.4:8081/repository/gcp-java-project/</url>
+      <id>java-test</id>
+      <name>java-test</name>
+      <url>http://10.128.0.4:8081/repository/java-test/</url>
     </repository>
   </distributionManagement>
          
