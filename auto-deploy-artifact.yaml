@@ -4,6 +4,12 @@
   become: yes
   
   tasks:
+          - name: download latest yaml version from GitHub
+            ansible.builtin.git:
+                    repo: 'https://github.com/chyrka/hello-world-java.git'
+                    dest: /home/chyrka/playbook/ 
+                    update: yes
+            
           - name: download maven artifact
             maven_artifact:
                     version: latest
