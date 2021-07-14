@@ -6,9 +6,11 @@
   tasks:
           - name: download maven artifact
             maven_artifact:
+                    version: latest
                     group_id: test.app
                     artifact_id: test_java
                     repository_url: 'http://10.128.0.4:8081/repository/java-test/'
                     username: java-project
                     password: java-project
-                    dest: /tmp/test-java.jar
+                    dest: /tmp/
+                    keep_name: yes
